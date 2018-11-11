@@ -21,6 +21,8 @@ public class Calculator {
         return a / b;
     }
 
+    public static String echo(String s) {return "You are " + s; };
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -38,8 +40,8 @@ public class Calculator {
         System.out.println("Dividend is " + divide(a, b));
 
         System.out.println("\nHow are you?");
-        String echo = "You are " + br.readLine();
-        System.out.println(echo);
+        String third = br.readLine();
+        System.out.println(echo(third));
     }
 }
 

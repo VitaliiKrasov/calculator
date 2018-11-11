@@ -25,4 +25,9 @@ class Test {
     void divide() {
         assertEquals(2, Calculator.divide(50, 24));
     }
+
+    @org.junit.jupiter.api.Test
+    void echo() {
+        assertEquals( "You are happy", Calculator.echo("happy"));
+    }
 }
