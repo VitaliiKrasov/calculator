@@ -13,6 +13,7 @@ class Test {
     @org.junit.jupiter.api.Test
     void subtract() {
         assertEquals(-5, Calculator.subtract(10, 15));
+        assertEquals(2, Calculator.subtract(2, 0));
     }
 
     @org.junit.jupiter.api.Test
@@ -24,5 +25,4 @@ class Test {
     void divide() {
         assertEquals(2, Calculator.divide(50, 24));
     }
-
 }

@@ -36,6 +36,10 @@ public class Calculator {
         System.out.println("Difference is " + subtract(a, b));
         System.out.println("Multiplying is " + multiply(a, b));
         System.out.println("Dividend is " + divide(a, b));
+
+        System.out.println("\nHow are you?");
+        String echo = "You are " + br.readLine();
+        System.out.println(echo);
     }
 }
 
